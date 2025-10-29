@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.overlay {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.search-container {
+  margin-bottom: 50px;
+}
+
+#search {
+  width: 400px;
+  padding: 12px 18px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.sites {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.site img {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+#addSiteBtn {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  font-size: 30px;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: rgba(255,255,255,0.8);
+  cursor: pointer;
+  color: #333;
+  transition: 0.3s;
+}
+
+#addSiteBtn:hover {
+  background: white;
+}
