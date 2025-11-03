@@ -1,0 +1,12 @@
+{
+  "name": "Brave Custom Tab",
+  "version": "1.0",
+  "description": "A custom new tab page inspired by Brave browser.",
+  "manifest_version": 3,
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}
