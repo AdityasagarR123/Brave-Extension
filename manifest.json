@@ -6,7 +6,3 @@
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "icons": {
-    "128": "icons/icon128.png"
-  }
-}
